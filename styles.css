@@ -19,7 +19,7 @@
     --amber: #ffb340;
     --amber-dim: rgba(255, 179, 64, 0.15);
     --font: 'Space Grotesk', 'Noto Sans KR', sans-serif;
-    --font-head: 'Syne', 'Noto Sans KR', sans-serif;
+    --font-head: 'Plus Jakarta Sans', 'Noto Sans KR', sans-serif;
     --ease: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-back: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
@@ -80,10 +80,11 @@ button { font-family: inherit; }
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-3) 60%, var(--hot) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--accent);
+}
+
+.gradient-text svg {
+    display: none;
 }
 
 /* ===== Cursor Glow ===== */
@@ -327,7 +328,6 @@ button { font-family: inherit; }
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    overflow: hidden;
     padding: 120px 32px 80px;
     background:
         radial-gradient(ellipse 60% 50% at 10% 50%, rgba(6, 255, 165, 0.06) 0%, transparent 70%),
@@ -369,7 +369,7 @@ button { font-family: inherit; }
     font-family: var(--font-head);
     font-size: clamp(48px, 9vw, 96px);
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 1.2;
     letter-spacing: 0;
     margin-bottom: 32px;
 }
@@ -379,6 +379,7 @@ button { font-family: inherit; }
     opacity: 0;
     animation: fadeUp 1s var(--ease) forwards;
 }
+
 
 .hero-heading .line[data-delay="0"] { animation-delay: 0.3s; }
 .hero-heading .line[data-delay="1"] { animation-delay: 0.5s; }
