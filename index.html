@@ -22,10 +22,29 @@
                 <span>KIM BROTHERS</span>
             </a>
             <div class="nav-links" id="nav-links">
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#team">Team</a>
-                <a href="#contact">Contact</a>
+                <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#services" data-i18n="nav_services">Services</a>
+                <a href="#team" data-i18n="nav_team">Team</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+            </div>
+            <div class="lang-selector" id="lang-dropdown">
+                <button class="lang-toggle" aria-label="Language">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                    <span id="lang-current">한국어</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </button>
+                <div class="lang-menu">
+                    <button class="lang-option active" data-lang="ko">한국어</button>
+                    <button class="lang-option" data-lang="en">English</button>
+                    <button class="lang-option" data-lang="zh">中文</button>
+                    <button class="lang-option" data-lang="ja">日本語</button>
+                    <button class="lang-option" data-lang="es">Español</button>
+                    <button class="lang-option" data-lang="fr">Français</button>
+                    <button class="lang-option" data-lang="de">Deutsch</button>
+                    <button class="lang-option" data-lang="pt">Português</button>
+                    <button class="lang-option" data-lang="ru">Русский</button>
+                    <button class="lang-option" data-lang="ar">العربية</button>
+                </div>
             </div>
             <button class="nav-burger" id="nav-burger" aria-label="Menu">
                 <span></span><span></span>
@@ -38,19 +57,19 @@
         <canvas class="hero-canvas" id="hero-canvas"></canvas>
         <div class="hero-content">
             <h1 class="hero-heading">
-                <span class="line" data-delay="0">We Build</span>
-                <span class="line gradient-text" data-delay="1">Digital Worlds</span>
+                <span class="line" data-delay="0" data-i18n="hero_line1">We Build</span>
+                <span class="line gradient-text" data-delay="1" data-i18n="hero_line2">Digital Worlds</span>
             </h1>
-            <p class="hero-sub">
+            <p class="hero-sub" data-i18n="hero_sub">
                 게임 개발과 디지털 에셋 제작을 전문으로 하는<br>
                 크리에이티브 스튜디오, 킴브라더스입니다.
             </p>
             <div class="hero-cta">
                 <a href="#services" class="btn-glow">
-                    <span>Explore Services</span>
+                    <span data-i18n="hero_cta1">Explore Services</span>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
                 </a>
-                <a href="#contact" class="btn-ghost">Contact Us</a>
+                <a href="#contact" class="btn-ghost" data-i18n="hero_cta2">Contact Us</a>
             </div>
         </div>
         <div class="hero-scroll-hint">
@@ -63,16 +82,16 @@
         <div class="container">
             <div class="split-layout">
                 <div class="split-left reveal-slide-right">
-                    <span class="label">About Us</span>
+                    <span class="label" data-i18n="about_label">About Us</span>
                     <h2 class="heading-lg">
-                        크리에이티브의<br>
-                        <span class="accent-text">새로운 기준</span>
+                        <span data-i18n="about_h2_1">크리에이티브의</span><br>
+                        <span class="accent-text" data-i18n="about_h2_2">새로운 기준</span>
                     </h2>
-                    <p class="text-body">
+                    <p class="text-body" data-i18n="about_p1">
                         킴브라더스는 혁신적인 게임과 고퀄리티 디지털 에셋으로
                         크리에이티브 산업의 새로운 기준을 만들어갑니다.
                     </p>
-                    <p class="text-body">
+                    <p class="text-body" data-i18n="about_p2">
                         최신 기술과 트렌드를 결합하여 플레이어에게
                         잊을 수 없는 경험을 선사합니다.
                     </p>
@@ -81,18 +100,18 @@
                     <div class="value-cards">
                         <div class="value-card reveal-up" style="--i:0">
                             <div class="value-num">01</div>
-                            <h3>Innovation</h3>
-                            <p>최신 기술과 트렌드를 활용하여 혁신적인 게임 경험을 창조합니다.</p>
+                            <h3 data-i18n="val1_t">Innovation</h3>
+                            <p data-i18n="val1_p">최신 기술과 트렌드를 활용하여 혁신적인 게임 경험을 창조합니다.</p>
                         </div>
                         <div class="value-card reveal-up" style="--i:1">
                             <div class="value-num">02</div>
-                            <h3>Quality</h3>
-                            <p>타협 없는 품질 기준으로 모든 프로젝트에 최고의 결과물을 제공합니다.</p>
+                            <h3 data-i18n="val2_t">Quality</h3>
+                            <p data-i18n="val2_p">타협 없는 품질 기준으로 모든 프로젝트에 최고의 결과물을 제공합니다.</p>
                         </div>
                         <div class="value-card reveal-up" style="--i:2">
                             <div class="value-num">03</div>
-                            <h3>Collaboration</h3>
-                            <p>팀워크와 열린 소통을 통해 최고의 시너지를 만들어냅니다.</p>
+                            <h3 data-i18n="val3_t">Collaboration</h3>
+                            <p data-i18n="val3_p">팀워크와 열린 소통을 통해 최고의 시너지를 만들어냅니다.</p>
                         </div>
                     </div>
                 </div>
@@ -104,9 +123,9 @@
     <section class="section section-dark" id="services">
         <div class="container">
             <div class="section-intro reveal-up">
-                <span class="label">Services</span>
-                <h2 class="heading-lg">What We Do</h2>
-                <p class="text-body text-center">
+                <span class="label" data-i18n="svc_label">Services</span>
+                <h2 class="heading-lg" data-i18n="svc_h2">What We Do</h2>
+                <p class="text-body text-center" data-i18n="svc_sub">
                     게임 개발부터 디지털 에셋 제작까지,<br>
                     다양한 분야에서 전문적인 서비스를 제공합니다.
                 </p>
@@ -115,8 +134,8 @@
                 <div class="service-row reveal-up" style="--i:0">
                     <div class="service-idx">01</div>
                     <div class="service-info">
-                        <h3>Game Development</h3>
-                        <p>
+                        <h3 data-i18n="svc1_t">Game Development</h3>
+                        <p data-i18n="svc1_p">
                             모바일, PC, 콘솔 플랫폼을 위한 게임을 기획부터 출시까지
                             풀 사이클로 개발합니다. Unity를 활용한 고퀄리티 게임 제작이 가능합니다.
                         </p>
@@ -131,8 +150,8 @@
                 <div class="service-row reveal-up" style="--i:1">
                     <div class="service-idx">02</div>
                     <div class="service-info">
-                        <h3>Digital Assets</h3>
-                        <p>
+                        <h3 data-i18n="svc2_t">Digital Assets</h3>
+                        <p data-i18n="svc2_p">
                             게임 및 인터랙티브 콘텐츠에 사용할 수 있는 고퀄리티 3D 모델,
                             텍스처, 애니메이션, UI 키트 등의 디지털 에셋을 제작합니다.
                         </p>
@@ -147,8 +166,8 @@
                 <div class="service-row reveal-up" style="--i:2">
                     <div class="service-idx">03</div>
                     <div class="service-info">
-                        <h3>Technical Consulting</h3>
-                        <p>
+                        <h3 data-i18n="svc3_t">Technical Consulting</h3>
+                        <p data-i18n="svc3_p">
                             게임 개발 파이프라인 최적화, 기술 자문, 코드 리뷰 등
                             기술적인 컨설팅 서비스를 제공합니다.
                         </p>
@@ -168,9 +187,9 @@
     <section class="section" id="team">
         <div class="container">
             <div class="section-intro reveal-up">
-                <span class="label">Team</span>
-                <h2 class="heading-lg">The People Behind</h2>
-                <p class="text-body text-center">
+                <span class="label" data-i18n="team_label">Team</span>
+                <h2 class="heading-lg" data-i18n="team_h2">The People Behind</h2>
+                <p class="text-body text-center" data-i18n="team_sub">
                     열정과 실력을 갖춘 킴브라더스의 팀을 소개합니다.
                 </p>
             </div>
@@ -181,7 +200,7 @@
                     </div>
                     <div class="member-info">
                         <h3>Neo</h3>
-                        <span class="member-title">CEO & Lead Developer</span>
+                        <span class="member-title" data-i18n="role1">CEO & Lead Developer</span>
                     </div>
                 </div>
                 <div class="team-member reveal-up" style="--i:1">
@@ -190,7 +209,7 @@
                     </div>
                     <div class="member-info">
                         <h3>Kaleb</h3>
-                        <span class="member-title">AI Planner & Strategist</span>
+                        <span class="member-title" data-i18n="role2">AI Planner & Strategist</span>
                     </div>
                 </div>
             </div>
@@ -202,12 +221,12 @@
         <div class="container">
             <div class="contact-layout">
                 <div class="contact-left reveal-slide-right">
-                    <span class="label">Contact</span>
+                    <span class="label" data-i18n="ct_label">Contact</span>
                     <h2 class="heading-lg">
-                        Let's Build<br>
-                        <span class="accent-text">Something Great</span>
+                        <span data-i18n="ct_h2_1">Let's Build</span><br>
+                        <span class="accent-text" data-i18n="ct_h2_2">Something Great</span>
                     </h2>
-                    <p class="text-body">
+                    <p class="text-body" data-i18n="ct_p">
                         프로젝트 문의나 협업 제안을 환영합니다.
                     </p>
                     <div class="contact-email">
@@ -217,27 +236,27 @@
                 </div>
                 <div class="contact-right reveal-up">
                     <form class="contact-form" id="contact-form" action="https://formsubmit.co/contact@kimbrothers.net" method="POST">
-                        <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_next" value="https://kimbrothers.net">
                         <input type="hidden" name="_subject" value="킴브라더스 웹사이트 문의">
+                        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
                         <div class="form-field">
                             <label for="name" class="sr-only">Your Name</label>
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <input type="text" id="name" name="name" data-i18n-ph="ph_name" placeholder="Your Name" required>
                         </div>
                         <div class="form-field">
                             <label for="email" class="sr-only">Email Address</label>
-                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                            <input type="email" id="email" name="email" data-i18n-ph="ph_email" placeholder="Email Address" required>
                         </div>
                         <div class="form-field">
                             <label for="subject" class="sr-only">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="Subject">
+                            <input type="text" id="subject" name="subject" data-i18n-ph="ph_subject" placeholder="Subject">
                         </div>
                         <div class="form-field">
                             <label for="message" class="sr-only">Message</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                            <textarea id="message" name="message" rows="5" data-i18n-ph="ph_msg" placeholder="Tell us about your project..." required></textarea>
                         </div>
                         <button type="submit" class="btn-glow btn-full">
-                            <span>Send Message</span>
+                            <span data-i18n="ct_btn">Send Message</span>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
                         </button>
                     </form>
@@ -254,11 +273,12 @@
                     <div class="brand-mark">K</div>
                     <span>KIM BROTHERS</span>
                 </div>
-                <p>&copy; 2026 Kim Brothers (킴브라더스). All rights reserved.</p>
+                <p data-i18n="footer">&copy; 2026 Kim Brothers (킴브라더스). All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
