@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774509941760,
+  "projectRoot": "C:\\programming\\Web\\kim-brothers-website",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "styles.css",
+      "accessCount": 80,
+      "lastAccessed": 1774516485672,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 22,
+      "lastAccessed": 1774516480379,
+      "type": "file"
+    },
+    {
+      "path": "script.js",
+      "accessCount": 6,
+      "lastAccessed": 1774515803873,
+      "type": "file"
+    },
+    {
+      "path": "run-claude.bat",
+      "accessCount": 3,
+      "lastAccessed": 1774509971443,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 3,
+      "lastAccessed": 1774510436363,
+      "type": "directory"
+    },
+    {
+      "path": "i18n.js",
+      "accessCount": 1,
+      "lastAccessed": 1774514029172,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

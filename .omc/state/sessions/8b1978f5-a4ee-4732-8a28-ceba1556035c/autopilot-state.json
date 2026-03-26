@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "started_at": "2026-03-26T09:02:42.403Z",
+  "original_prompt": "/autopilot 아직도 제대로 문제를 해결하지 못했어 제대로 분석해서 해결해 내가봤을땐 폰트 사이즈나 여러가지 해결방법이 있잖아",
+  "session_id": "8b1978f5-a4ee-4732-8a28-ceba1556035c",
+  "project_path": "C:\\programming\\Web\\kim-brothers-website",
+  "reinforcement_count": 0,
+  "awaiting_confirmation": true,
+  "last_checked_at": "2026-03-26T09:02:42.403Z"
+}
