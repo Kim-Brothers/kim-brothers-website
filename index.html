@@ -229,13 +229,13 @@
                     <p class="text-body" data-i18n="ct_p">
                         프로젝트 문의나 협업 제안을 환영합니다.
                     </p>
-                    <div class="contact-email">
+                    <div class="contact-email" id="contact-email-display">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        <span>contact@kimbrothers.net</span>
+                        <span id="email-text"></span>
                     </div>
                 </div>
                 <div class="contact-right reveal-up">
-                    <form class="contact-form" id="contact-form" action="https://formsubmit.co/contact@kimbrothers.net" method="POST">
+                    <form class="contact-form" id="contact-form" method="POST">
                         <input type="hidden" name="_next" value="https://kimbrothers.net">
                         <input type="hidden" name="_subject" value="킴브라더스 웹사이트 문의">
                         <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">

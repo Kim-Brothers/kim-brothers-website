@@ -157,9 +157,16 @@ if (!isReduced && window.innerWidth > 768) {
     }, { passive: true });
 }
 
-// ===== Contact Form =====
+// ===== Contact Email Obfuscation =====
+const _u = 'contact', _d = 'kimbrothers', _t = 'net';
+const _addr = `${_u}@${_d}.${_t}`;
+
+const emailText = document.getElementById('email-text');
+if (emailText) emailText.textContent = _addr;
+
 const form = document.getElementById('contact-form');
 if (form) {
+    form.action = `https://formsubmit.co/${_addr}`;
     const btn = form.querySelector('button');
     form.addEventListener('submit', () => {
         btn.innerHTML = '<span>Sending...</span>';
