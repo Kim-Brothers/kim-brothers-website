@@ -166,7 +166,6 @@ if (emailText) emailText.textContent = _addr;
 
 const form = document.getElementById('contact-form');
 if (form) {
-    form.action = `https://formsubmit.co/${_addr}`;
     const btn = form.querySelector('button');
     form.addEventListener('submit', () => {
         btn.innerHTML = '<span>Sending...</span>';

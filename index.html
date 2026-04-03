@@ -235,10 +235,11 @@
                     </div>
                 </div>
                 <div class="contact-right reveal-up">
-                    <form class="contact-form" id="contact-form" method="POST">
-                        <input type="hidden" name="_next" value="https://kimbrothers.net">
-                        <input type="hidden" name="_subject" value="킴브라더스 웹사이트 문의">
-                        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+                    <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="2b8ed516-049e-41a9-be44-d77445ed22ab">
+                        <input type="hidden" name="redirect" value="https://kimbrothers.net">
+                        <input type="hidden" name="subject" value="킴브라더스 웹사이트 문의">
+                        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
                         <div class="form-field">
                             <label for="name" class="sr-only">Your Name</label>
                             <input type="text" id="name" name="name" data-i18n-ph="ph_name" placeholder="Your Name" required>
